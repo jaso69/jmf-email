@@ -31,7 +31,7 @@ export default async function handler(req, res) {
       to: 'joseonieva@gmail.com',
       subject: 'Nuevo contacto desde el formulario',
       html: `
-        <h2>Detalles del contacto</h2>
+        <h2>Detalles del contacto JMF Ortiz</h2>
         <p><strong>Nombre:</strong> ${nombre || 'No especificado'}</p>
         <p><strong>Email:</strong> ${email || 'No especificado'}</p>
         <p><strong>Teléfono:</strong> ${telefono || 'No especificado'}</p>
