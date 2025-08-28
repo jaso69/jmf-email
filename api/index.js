@@ -28,7 +28,7 @@ export default async function handler(req, res) {
 
     const { data, error } = await resend.emails.send({
       from: 'presupuesto@jaweb.es',
-      to: 'joseonieva@gmail.com',
+      to: 'yolanda@jmfortiz.com',
       subject: 'Nuevo contacto desde el formulario',
       html: `
         <h2>Detalles del contacto JMF Ortiz</h2>
