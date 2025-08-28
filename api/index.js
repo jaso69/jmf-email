@@ -10,7 +10,7 @@ export default async function handler(req, res) {
   if (req.method === 'OPTIONS') {
     return res.status(200).end();
   }
-  
+
   if (req.method !== 'POST') {
     return res.status(405).json({ error: 'Método no permitido' });
   }
@@ -28,7 +28,7 @@ export default async function handler(req, res) {
 
     const { data, error } = await resend.emails.send({
       from: 'presupuesto@jaweb.es',
-      to: 'joseoniel@gmail.com',
+      to: 'joseonieva@gmail.com',
       subject: 'Nuevo contacto desde el formulario',
       html: `
         <h2>Detalles del contacto</h2>
